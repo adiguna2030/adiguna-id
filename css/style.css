@@ -184,3 +184,9 @@ footer{
     }
 
 }
+.logo{
+    color:var(--primary);
+    text-decoration:none;
+    font-size:22px;
+    font-weight:700;
+}
