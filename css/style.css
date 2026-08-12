@@ -128,3 +128,34 @@ footer{
     opacity:.9;
 
 }
+@media (max-width: 768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .hero{
+        min-height:70vh;
+        padding:40px 0;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    section{
+        padding:60px 0;
+    }
+
+}
